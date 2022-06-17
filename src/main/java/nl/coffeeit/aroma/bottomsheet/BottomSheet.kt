@@ -1,10 +1,10 @@
 package nl.coffeeit.aroma.bottomsheet
 
-
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.CornerSize
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
@@ -24,7 +24,8 @@ fun BottomSheetWithContent(
     sheetContent: @Composable () -> Unit,
     cornerShape: RoundedCornerShape,
     scrimColor: Color = Color(0x60000000),
-    hasCloseButton: Boolean = true
+    hasCloseButton: Boolean = true,
+    raised: Boolean = false
 ) {
 
     val state = rememberModalBottomSheetState(initialValue = ModalBottomSheetValue.Hidden)
@@ -32,7 +33,11 @@ fun BottomSheetWithContent(
 
     ModalBottomSheetLayout(
         sheetState = state,
-        sheetShape = cornerShape,
+        sheetShape = if (raised) {
+            RoundedCornerShape(cornerShape.topStart, cornerShape.topEnd, cornerShape.bottomStart, cornerShape.bottomEnd)
+        } else {
+            RoundedCornerShape(cornerShape.topStart, cornerShape.topEnd, CornerSize(0.dp), CornerSize(0.dp))
+        },
         scrimColor = scrimColor,
         sheetContent = {
             if (hasCloseButton) {
