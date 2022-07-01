@@ -30,12 +30,15 @@ fun BottomSheetWithContent(
     backgroundColor: Color = Color(DEFAULT_BACKGROUND_COLOR),
     scrimColor: Color = Color(DEFAULT_SCRIM_COLOR),
     width: Float? = null,
+    isDraggable : Boolean = true,
     bottomPadding: Float = 0f,
     cornerShape: RoundedCornerShape = RoundedCornerShape(DEFAULT_CORNER_RADIUS.dp),
     accessory: Accessory = Accessory.NONE
 ) {
 
-    val state = rememberModalBottomSheetState(initialValue = ModalBottomSheetValue.Hidden)
+    val state = rememberModalBottomSheetState(
+        initialValue = ModalBottomSheetValue.Hidden
+    )
     val scope = rememberCoroutineScope()
 
     val sheetSurfaceModifier = if (width != null && width > 0) {
@@ -123,3 +126,4 @@ private fun Grabber(modifier: Modifier) {
 enum class Accessory {
     NONE, GRABBER, CLOSE_BUTTON
 }
+
