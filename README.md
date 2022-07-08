@@ -1,15 +1,15 @@
-# Aroma BottomSheet
+# Android Aroma BottomSheet
 
-This document describes how to implement the Aroma Bottom Sheet component into an app
+This document describes how to implement the Aroma BottomSheet component into an app
 
 # Installation
 
-This component requires minimum SDK 21
+This component requires minimum SDK 21.
 
-Add the following dependency to `build.gradle`:
+Add the following to `build.gradle`:
 ```
 dependencies {
-    implementation "aroma:bottomsheet:1.0.0"
+    implementation "nl.coffeeit.aroma:bottomsheet:1.0.0"
 }
 ```
 
