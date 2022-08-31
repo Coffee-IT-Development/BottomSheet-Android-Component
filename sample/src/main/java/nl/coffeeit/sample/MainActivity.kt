@@ -257,7 +257,7 @@ fun ComponentsDemoScreen(
                 )
             }
         },
-        contentComposable = {
+        sheetContent = {
             Column(
                 Modifier
                     .fillMaxWidth()
