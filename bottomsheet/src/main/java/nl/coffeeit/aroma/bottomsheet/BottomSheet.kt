@@ -52,7 +52,7 @@ private const val DEFAULT_SCRIM_COLOR = 0x99000000
 @ExperimentalMaterialApi
 fun BottomSheetWithContent(
     activityContentScope: @Composable (state: ModalBottomSheetState, scope: CoroutineScope) -> Unit,
-    contentComposable: @Composable () -> Unit,
+    sheetContent: @Composable () -> Unit,
     backgroundColor: Color = Color(DEFAULT_BACKGROUND_COLOR),
     scrimColor: Color = Color(DEFAULT_SCRIM_COLOR),
     width: Float? = null,
@@ -134,7 +134,7 @@ fun BottomSheetWithContent(
                             // Nothing needs to happen
                         }
                     }
-                    contentComposable()
+                    sheetContent()
                 }
             }
         }
