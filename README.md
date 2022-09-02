@@ -36,20 +36,20 @@ To use the BottomSheet in a project, simply add it to your code like this:
 
 ```
 BottomSheetWithContent(
-        activityContentScope = { state, scope ->
-            Button(onClick = {
-                scope.launch {
-                    state.show()
-                }
-            }) {
-                Text("This goes behind the sheet")
+    activityContentScope = { state, scope ->
+        Button(onClick = {
+            scope.launch {
+                state.show()
             }
-        },
-        
-        sheetContent = {
-            Text(text = "This goes inside the sheet")
+        }) {
+            Text("This goes behind the sheet")
         }
-    )
+    },
+    
+    sheetContent = {
+        Text(text = "This goes inside the sheet")
+    }
+)
 ```
 Two parameters are required:
 
@@ -76,6 +76,8 @@ Two parameters are required:
 The changelog can be found [here](https://github.com/Coffee-IT-Development/BottomSheet-Android-Component/blob/main/CHANGELOG.md).
 
 # 🔗 Related publications
+
+- [Aroma BottomSheet Component for iOS](https://github.com/Coffee-IT-Development/BottomSheetModal-iOS-Component)
 
 Look at our other repositories on our [GitHub account](https://github.com/orgs/Coffee-IT-Development/repositories).
 
