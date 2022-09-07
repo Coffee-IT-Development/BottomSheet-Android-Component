@@ -1,5 +1,9 @@
 # Change log
 
+Version 1.0.2 *(07-09-2022)*
+----------------------------
+* Removed build variants because it caused issues in other projects.
+
 Version 1.0.1 *(31-08-2022)*
 ----------------------------
 * Renamed `bottomPadding` to `bottomMargin`.
