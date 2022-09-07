@@ -26,7 +26,7 @@ This component requires minimum SDK 21.
 Add the following to `build.gradle`:
 ```
 dependencies {
-    implementation "nl.coffeeit.aroma:bottomsheet:1.0.1"
+    implementation "nl.coffeeit.aroma:bottomsheet:1.0.2"
 }
 ```
 
