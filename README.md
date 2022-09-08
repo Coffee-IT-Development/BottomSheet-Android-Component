@@ -1,4 +1,4 @@
-[![Coffee IT - Android Aroma BottomSheet Component](https://coffeeit.nl/wp-content/uploads/2022/08/Aroma-emoji-picker-cover-android.png)](https://coffeeit.nl/)
+[![Coffee IT - Android Aroma BottomSheet Component](https://coffeeit.nl/wp-content/uploads/2022/09/Aroma-bottom-sheet-cover-Android-1.png)](https://coffeeit.nl/)
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/nl.coffeeit.aroma/bottomsheet/badge.svg)](https://maven-badges.herokuapp.com/Maven-Central/nl.coffeeit.aroma/bottomsheet)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
