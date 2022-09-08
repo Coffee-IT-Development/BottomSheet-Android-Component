@@ -23,10 +23,19 @@ Created by [Coffee IT](https://coffeeit.nl/).
 
 This component requires minimum SDK 21.
 
-Add the following to `build.gradle`:
-```
+Add the dependency to `build.gradle`.
+
+Groovy:
+```Groovy
 dependencies {
     implementation "nl.coffeeit.aroma:bottomsheet:1.0.2"
+}
+```
+
+KTS:
+```Kotlin
+dependencies {
+    implementation("nl.coffeeit.aroma:bottomsheet:1.0.2")
 }
 ```
 
@@ -34,7 +43,7 @@ dependencies {
 
 To use the BottomSheet in a project, simply add it to your code like this:
 
-```
+```Kotlin
 BottomSheetWithContent(
     activityContentScope = { state, scope ->
         Button(onClick = {
