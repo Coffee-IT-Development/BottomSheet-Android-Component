@@ -28,14 +28,14 @@ Add the dependency to `build.gradle`.
 Groovy:
 ```Groovy
 dependencies {
-    implementation "nl.coffeeit.aroma:bottomsheet:1.0.2"
+    implementation "nl.coffeeit.aroma:bottomsheet:1.0.3"
 }
 ```
 
 KTS:
 ```Kotlin
 dependencies {
-    implementation("nl.coffeeit.aroma:bottomsheet:1.0.2")
+    implementation("nl.coffeeit.aroma:bottomsheet:1.0.3")
 }
 ```
 
