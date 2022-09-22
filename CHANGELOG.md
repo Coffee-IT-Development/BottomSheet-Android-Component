@@ -1,5 +1,9 @@
 # Change log
 
+Version 1.0.3 *(22-09-2022)*
+----------------------------
+* Migrated from `compileSdk` and `targetSdk` 32 to 33.
+
 Version 1.0.2 *(07-09-2022)*
 ----------------------------
 * Removed build variants because it caused issues in other projects.
