@@ -24,7 +24,7 @@
  * SOFTWARE.
  */
 
-package nl.coffeeit.sample
+package nl.coffeeit.aroma.bottomsheet.sample
 
 import android.annotation.SuppressLint
 import android.os.Bundle
