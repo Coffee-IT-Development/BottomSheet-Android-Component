@@ -124,7 +124,7 @@ fun BottomSheetWithContent(
                                         }
                                 ) {
                                     Image(
-                                        painter = painterResource(id = R.drawable.ic_close),
+                                        painter = painterResource(id = R.drawable.is_close_bottomsheet),
                                         contentDescription = accessory.displayName
                                     )
                                 }
