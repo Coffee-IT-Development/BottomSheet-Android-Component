@@ -27,28 +27,24 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
     id 'com.vanniktech.maven.publish'
 }
 
 android {
-    compileSdk 33
+    compileSdk 31
 
     defaultConfig {
         minSdk 21
-        targetSdk 33
-        versionCode 1
-        versionName version
+        targetSdk 31
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
-        vectorDrawables {
-            useSupportLibrary true
-        }
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
     kotlinOptions {
         jvmTarget = '1.8'
@@ -57,7 +53,7 @@ android {
         compose true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion compose_compiler_version
+        kotlinCompilerExtensionVersion '1.3.2'
     }
     packagingOptions {
         resources {
@@ -67,9 +63,9 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation 'androidx.core:core-ktx:1.8.0'
     implementation "androidx.compose.compiler:compiler:$compose_compiler_version"
 
     // Material Design
-    implementation "androidx.compose.material:material:1.3.0-alpha01"
+    implementation "androidx.compose.material:material:1.1.1"
 }
