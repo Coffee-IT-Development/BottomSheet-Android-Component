@@ -102,4 +102,4 @@ Do you have questions, ideas or need help? Send us an email at contact@coffeeit.
 
 # ⚠️ License
 
-Android Aroma BottomSheet is licensed under the terms of the [MIT Open Source license](https://github.com/Coffee-IT-Development/BottomSheet-Android-Component/blob/main/LICENSE).
+The Android Aroma BottomSheet package is licensed under the terms of the [MIT Open Source license, combined with the Commons Clause licence](LICENSE).
