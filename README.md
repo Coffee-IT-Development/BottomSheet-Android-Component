@@ -21,7 +21,7 @@ Created by [Coffee IT](https://coffeeit.nl/).
 
 # ⚡ Installation
 
-This component requires minimum SDK 21.
+This component requires minimum __SDK 21__.
 
 Add the dependency to `build.gradle`.
 
@@ -66,9 +66,9 @@ Two parameters are required:
 
 `sheetContent` represents a Composable that is the the content of the actual sheet. XML can also be used here, since it can be inflated in a Composable.
 
-# ⚙️ Customisation
+## ⚙️ Customisation
 
-`BottomSheetWithContent` accepts the following optional parameters:
+__`BottomSheetWithContent` accepts the following optional parameters:__
 
 - `backgroundColor` A `Color` object to set the background of the bottom sheet
 - `scrimColor` A `Color` object to set the color of the area behind the sheet
@@ -102,4 +102,4 @@ Do you have questions, ideas or need help? Send us an email at contact@coffeeit.
 
 # ⚠️ License
 
-Android Aroma BottomSheet is licensed under the terms of the [MIT Open Source license](https://github.com/Coffee-IT-Development/BottomSheet-Android-Component/blob/main/LICENSE).
+The Android Aroma BottomSheet package is licensed under the terms of the [MIT Open Source license, combined with the Commons Clause licence](LICENSE).

@@ -284,7 +284,6 @@ fun ComponentsDemoScreen(
     )
 }
 
-
 @Composable
 @Preview(showBackground = true)
 fun ModalBottomSheetHolderPreview() {
